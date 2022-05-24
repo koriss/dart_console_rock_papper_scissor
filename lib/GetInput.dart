@@ -2,7 +2,7 @@ import 'dart:io';
 
 class GetInput {
 
-  integer() {
+  int integer() {
     String? s = stdin.readLineSync();
     if (s != null && int.tryParse(s) != null) return int.parse(s);
 
@@ -10,7 +10,7 @@ class GetInput {
     return integer();
   }
 
-  answer() {
+  bool answer() {
     print('Type "yes" or "no"');
 
     String? s = stdin.readLineSync();
