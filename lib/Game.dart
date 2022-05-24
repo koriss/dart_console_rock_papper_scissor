@@ -11,7 +11,7 @@ class Game {
     2 : 'Rock',
   };
 
-  Mechanic() {
+  Game () {
     choicePlayer = getPlayerChoice();
     choiceAi = getAiChoice();
     result = getResult();
